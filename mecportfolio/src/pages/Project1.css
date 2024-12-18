@@ -1,0 +1,308 @@
+/* General styles for the entire page */
+.project-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+/* First Section (Project Title, Tools, and Image) */
+.project-header {
+    background-image: url('../assets/images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full height for the section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px; /* Adjust padding for responsive design */
+    text-align: center; /* Center text horizontally */
+  }
+  
+  /* Project Title and Tools */
+  .project-title {
+    max-width: 60%; /* Responsive width */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+  
+  .project-title h1 {
+    font-size: calc(2rem + 4vw); /* Scalable font size */
+    line-height: 1.2;
+    margin: 0;
+    display: inline-block; /* Ensure proper line height */
+  }
+  
+/* Design Type Section */
+
+.design-type button {
+    background-color: white; /* White background for the bubble */
+    /* border: none;  */
+    color: black; /* Black arrows */
+    padding: 10px; /* Adjust padding to fit bubble size */
+    margin: 0 20px; /* Spacing between arrows and bubble */
+    cursor: pointer;
+    font-size: 2rem; /* Adjust font size for arrows */
+    border-radius: 50%; /* Make the button round */
+    width: 60px; /* Width of the circle */
+    height: 60px; /* Height of the circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0; /* Prevent extra spacing around the arrows */
+}
+
+.design-type {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the arrows and bubble */
+    margin-top: 20px;
+}
+
+.design-type button:focus {
+    outline: none; /* Remove default focus outline */
+}
+
+.design-type span {
+    font-size: 1.5em; /* Adjust as needed */
+    padding: 15px 30px; /* Increase padding for longer vertical bubble */
+    border-radius: 30px; /* Larger rounded bubble */
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    color: #333; /* Dark text color for contrast */
+    display: inline-block;
+    white-space: nowrap; /* Prevent text from wrapping */
+    line-height: 1.5; /* Increase vertical spacing within the bubble */
+    min-width: 120px; /* Ensure a minimum width for the bubble */
+    text-align: center; /* Center text inside bubble */
+}
+  
+  /* Project Image */
+  .project-image {
+    max-width: 50%;
+  }
+  
+  .project-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional styling */
+  }
+  
+  /* Background Flipped Section */
+  .flipped-background {
+    height: 100vh;
+    background-image: url('../assets/images/background-image-flipped.jpg'); /* Flipped background image path */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  /* Common styles for section headers */
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+    
+/* Explanation Section */
+.what-is-this {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+  }
+  
+  .explanation {
+    max-width: 45%; /* Adjusted width for better alignment */
+    text-align: left;
+  }
+  
+  .explanation h2 {
+    font-size: 3rem; /* Larger font size for the title */
+    margin-bottom: 20px;
+  }
+  
+  .explanation p {
+    font-size: 1.5rem; /* Adjust font size for the description */
+    line-height: 1.6;
+  }
+  
+  .explanation-image {
+    max-width: 45%; /* Adjusted width for the image container */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .explanation-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  /* Design Process Section */
+  .design-process {
+    background-image: url('../assets/images/background-image.jpg'); /* CHANGE THIS: Update background image path */
+  }
+  
+  .design-process h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .process-steps {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007BFF;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-right: 20px;
+  }
+  
+  .step-content {
+    flex: 1;
+  }
+  
+  .blue-oval {
+    background-color: rgba(224, 247, 250, 0.8);
+    padding: 20px;
+    border-radius: 25px;
+  }
+  
+  .blue-oval ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .blue-oval ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Design Details Section */
+  .design-details {
+    background-image: url('../assets/images//background-image-flipped.jpg'); /* CHANGE THIS: Update flipped background image path */
+  }
+  
+  .design-details h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .step-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .step-images img {
+    width: 32%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .step-text {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .step-text span {
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    margin-top: 40px;
+  }
+  
+  .footer .connect {
+    margin-bottom: 20px;
+  }
+  
+  .footer .connect h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer .connect a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer .connect a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .copyright,
+  .footer .programmed-by {
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .project-header {
+        padding: 20px;
+      }
+    .what-is-this,
+    .design-process,
+    .design-details {
+      padding: 20px;
+      flex-direction: column;
+    }
+  
+    .project-title,
+    .project-image,
+    .explanation,
+    .explanation-image {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .project-title h1 {
+        font-size: calc(1.5rem + 6vw);
+    }
+  
+    .step-images img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .step-text {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .step-text span {
+      margin-bottom: 10px;
+    }
+
+    .design-type {
+        flex-direction: column;
+      }
+  }
+  

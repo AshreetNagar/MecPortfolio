@@ -1,0 +1,151 @@
+/* General styling */
+.project-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  /* Project header */
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .project-title {
+    flex: 1;
+  }
+  
+  .design-type {
+    display: flex;
+    align-items: center;
+  }
+  
+  .design-type button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .project-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .project-image img {
+    max-width: 100%;
+  }
+  
+  /* What is this? section */
+  .what-is-this {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .explanation {
+    flex: 1;
+  }
+  
+  .explanation-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .explanation-image img {
+    max-width: 100%;
+  }
+  
+  /* Engineering Design Process */
+  .design-process {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .process-steps {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .step {
+    text-align: center;
+  }
+  
+  .circle {
+    background-color: #007bff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .blue-oval {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  
+  /* Design Process Details */
+  .design-details {
+    margin-bottom: 20px;
+  }
+  
+  .step-images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .step-images img {
+    max-width: 100%;
+  }
+  
+  .step-text {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+  }
+  
+  /* Skills Used */
+  .skills-used {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .skill {
+    text-align: center;
+  }
+  
+  .skill img {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
